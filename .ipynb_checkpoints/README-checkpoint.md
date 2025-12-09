@@ -1,4 +1,4 @@
-# PAPER TITLE - tbd. 
+# Hyperalignment
 
 ## Goals
 The main goals of this project are:
