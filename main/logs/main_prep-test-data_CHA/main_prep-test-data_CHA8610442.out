@@ -1,0 +1,13 @@
+==== Job started on gpunode13 at Thu Dec  4 12:05:26 CET 2025 ====
+SLURM_JOB_ID: 8610442
+SLURM_SUBMIT_DIR: /home/dotr/paper/hyperalignment_rfMRI/main
+SLURM_CPUS_PER_TASK: 8
+SLURM_MEM_PER_NODE: 32768
+SLURM_NTASKS: 1
+data shape:  (2, 41, 48, 39, 1806)
+Assuming input data has shape n_subjects x spatial xyz x dim5. Continue with preprocessing.
+Preprocessing missing data
+(2, 1806, 76752)
+preprocessed data shape:  (2, 68, 15044)
+Preprocessing is done
+==== Job finished at Thu Dec  4 12:06:02 CET 2025 ====

@@ -1,0 +1,5 @@
+data shape:  (2, 41, 48, 39, 1204)
+Assuming input data has shape n_subjects x spatial xyz x dim5. Continue with preprocessing.
+Preprocessing missing data
+preprocessed data shape:  (2, 68, 15044)
+Preprocessing is done

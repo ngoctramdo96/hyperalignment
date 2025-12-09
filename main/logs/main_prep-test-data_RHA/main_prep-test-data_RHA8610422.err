@@ -1,0 +1,14 @@
+ 
+To activate the conda environment, type
+'source $CONDA_ROOT/bin/activate'
+ 
+ 
+To activate the conda environment, type
+'source $CONDA_ROOT/bin/activate'
+ 
+Traceback (most recent call last):
+  File "main_prep-test-data_RHA.py", line 52, in <module>
+    main()
+  File "main_prep-test-data_RHA.py", line 43, in main
+    subject_list = subject_pair,
+NameError: name 'subject_pair' is not defined

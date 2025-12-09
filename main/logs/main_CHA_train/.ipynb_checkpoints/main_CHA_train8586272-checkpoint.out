@@ -1,0 +1,6 @@
+==== Job started on gpunode39 at Sun Nov 30 11:56:35 CET 2025 ====
+SLURM_JOB_ID: 8586272
+SLURM_SUBMIT_DIR: /home/dotr/paper/hyperalignment_rfMRI/main
+SLURM_CPUS_PER_TASK: 12
+SLURM_MEM_PER_NODE: 65536
+SLURM_NTASKS: 1

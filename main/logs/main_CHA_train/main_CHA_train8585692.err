@@ -1,0 +1,16 @@
+ 
+To activate the conda environment, type
+'source $CONDA_ROOT/bin/activate'
+ 
+ 
+To activate the conda environment, type
+'source $CONDA_ROOT/bin/activate'
+ 
+Traceback (most recent call last):
+  File "main_CHA_train.py", line 98, in <module>
+    main()
+  File "main_CHA_train.py", line 90, in main
+    aligner.sl_align(stride=stride,
+  File "/home/dotr/paper/hyperalignment_rfMRI/hyperalignment/HyperAlign_class.py", line 289, in sl_align
+    if self.brain_mask == None:
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()

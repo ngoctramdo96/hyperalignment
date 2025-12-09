@@ -1,0 +1,5 @@
+data shape:  (2, 41, 48, 39, 1204)
+Assuming input data has shape n_subjects x spatial xyz x dim5. Continue with preprocessing.
+Preprocessing is done
+Number of centers:  8528
+Processed 5.01% searchlights

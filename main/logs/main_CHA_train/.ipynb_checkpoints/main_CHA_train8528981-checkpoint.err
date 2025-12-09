@@ -1,0 +1,30 @@
+ 
+To activate the conda environment, type
+'source $CONDA_ROOT/bin/activate'
+ 
+ 
+To activate the conda environment, type
+'source $CONDA_ROOT/bin/activate'
+ 
+Traceback (most recent call last):
+  File "main_CHA_train.py", line 112, in <module>
+    main()
+  File "main_CHA_train.py", line 104, in main
+    aligner.sl_align(stride=stride,
+  File "/home/dotr/paper/hyperalignment_rfMRI/hyperalignment/HyperAlign_class.py", line 395, in sl_align
+    R = normalize(cp.array(R), within="columns").get()
+  File "/home/dotr/paper/hyperalignment_rfMRI/hyperalignment/HyperAlign_utils.py", line 197, in normalize
+    data_centered = data_batch - np.mean(data_batch, axis=axis, keepdims=True)
+  File "cupy/_core/core.pyx", line 1273, in cupy._core.core._ndarray_base.__sub__
+  File "cupy/_core/_kernel.pyx", line 1347, in cupy._core._kernel.ufunc.__call__
+  File "cupy/_core/_kernel.pyx", line 645, in cupy._core._kernel._get_out_args_from_optionals
+  File "cupy/_core/core.pyx", line 2779, in cupy._core.core._ndarray_init
+  File "cupy/_core/core.pyx", line 237, in cupy._core.core._ndarray_base._init_fast
+  File "cupy/cuda/memory.pyx", line 740, in cupy.cuda.memory.alloc
+  File "cupy/cuda/memory.pyx", line 1426, in cupy.cuda.memory.MemoryPool.malloc
+  File "cupy/cuda/memory.pyx", line 1447, in cupy.cuda.memory.MemoryPool.malloc
+  File "cupy/cuda/memory.pyx", line 1118, in cupy.cuda.memory.SingleDeviceMemoryPool.malloc
+  File "cupy/cuda/memory.pyx", line 1139, in cupy.cuda.memory.SingleDeviceMemoryPool._malloc
+  File "cupy/cuda/memory.pyx", line 1384, in cupy.cuda.memory.SingleDeviceMemoryPool._try_malloc
+  File "cupy/cuda/memory.pyx", line 1387, in cupy.cuda.memory.SingleDeviceMemoryPool._try_malloc
+cupy.cuda.memory.OutOfMemoryError: Out of memory allocating 23,563,478,016 bytes (allocated so far: 23,567,794,176 bytes).

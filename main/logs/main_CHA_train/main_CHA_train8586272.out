@@ -1,0 +1,31 @@
+==== Job started on gpunode39 at Sun Nov 30 11:56:35 CET 2025 ====
+SLURM_JOB_ID: 8586272
+SLURM_SUBMIT_DIR: /home/dotr/paper/hyperalignment_rfMRI/main
+SLURM_CPUS_PER_TASK: 12
+SLURM_MEM_PER_NODE: 65536
+SLURM_NTASKS: 1
+data shape:  (2, 41, 48, 39, 1204)
+Assuming input data has shape n_subjects x spatial xyz x dim5. Continue with preprocessing.
+Preprocessing is done
+Number of centers:  8528
+Processed 5.01% searchlights
+Processed 10.00% searchlights
+Processed 15.01% searchlights
+Processed 20.00% searchlights
+Processed 25.00% searchlights
+Processed 30.01% searchlights
+Processed 35.00% searchlights
+Processed 40.01% searchlights
+Processed 45.00% searchlights
+Processed 50.00% searchlights
+Processed 55.01% searchlights
+Processed 60.00% searchlights
+Processed 65.01% searchlights
+Processed 70.00% searchlights
+Processed 75.00% searchlights
+Processed 80.01% searchlights
+Processed 85.00% searchlights
+Processed 90.01% searchlights
+Processed 95.00% searchlights
+Processed 100% searchlights
+==== Job finished at Sun Nov 30 14:32:13 CET 2025 ====

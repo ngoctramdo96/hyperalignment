@@ -1,0 +1,18 @@
+ 
+To activate the conda environment, type
+'source $CONDA_ROOT/bin/activate'
+ 
+ 
+To activate the conda environment, type
+'source $CONDA_ROOT/bin/activate'
+ 
+Traceback (most recent call last):
+  File "main_CHA_train.py", line 98, in <module>
+    main()
+  File "main_CHA_train.py", line 90, in main
+    aligner.sl_align(stride=stride,
+  File "/home/dotr/paper/hyperalignment_rfMRI/hyperalignment/HyperAlign_class.py", line 292, in sl_align
+    R_file.create_dataset('R', data=np.eye(np.sum(self.brain_mask), dtype='float32'))
+  File "/home/dotr/.conda/envs/master-thesis/lib/python3.8/site-packages/numpy/lib/twodim_base.py", line 215, in eye
+    m = zeros((N, M), dtype=dtype, order=order)
+TypeError: 'numpy.float64' object cannot be interpreted as an integer

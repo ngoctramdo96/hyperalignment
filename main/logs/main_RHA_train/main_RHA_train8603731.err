@@ -1,0 +1,14 @@
+ 
+To activate the conda environment, type
+'source $CONDA_ROOT/bin/activate'
+ 
+ 
+To activate the conda environment, type
+'source $CONDA_ROOT/bin/activate'
+ 
+Traceback (most recent call last):
+  File "main_RHA_train.py", line 62, in <module>
+    main()
+  File "main_RHA_train.py", line 36, in main
+    for subject in subjects:
+NameError: name 'subjects' is not defined
